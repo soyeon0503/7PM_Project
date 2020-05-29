@@ -33,12 +33,12 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_Sun: {fileID: 899729037}
+  m_IndirectSpecularColor: {r: 0.19887328, g: 0.16037524, b: 0.22980791, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 8fe456c091f6f364f8818c3d09e34ae1,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -4016,7 +4017,7 @@ PrefabInstance:
     - target: {fileID: 7801748137043895361, guid: 794af398f603ebd4bae8a14d5385261f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8012707
+      value: 1.501
       objectReference: {fileID: 0}
     - target: {fileID: 7801748137043895361, guid: 794af398f603ebd4bae8a14d5385261f,
         type: 3}
@@ -4026,7 +4027,7 @@ PrefabInstance:
     - target: {fileID: 7801748137043895361, guid: 794af398f603ebd4bae8a14d5385261f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4265435
+      value: 1.87
       objectReference: {fileID: 0}
     - target: {fileID: 7801748137043895361, guid: 794af398f603ebd4bae8a14d5385261f,
         type: 3}
@@ -10161,5 +10162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveType: 0
-  speed: 10
+  speed: 30
   damping: 3

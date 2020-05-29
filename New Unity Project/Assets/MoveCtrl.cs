@@ -13,7 +13,7 @@ public class MoveCtrl : MonoBehaviour
     }
 
     public MoveType moveType = MoveType.WAY_POINT; // 이동 방식
-    public float speed = 10.0f;                     // 이동 속도
+    public float speed = 30.0f;                     // 이동 속도
     public float damping = 3.0f;                   // 회전 속도를 조절할 계수
 
     private Transform tr;
@@ -24,7 +24,7 @@ public class MoveCtrl : MonoBehaviour
     {
         tr = GetComponent<Transform>();
         points = GameObject.Find("PlayerPath")
-                    .GetComponentsInChildren<Transform>();
+            .GetComponentsInChildren<Transform>();
     }
 
     void Update()
