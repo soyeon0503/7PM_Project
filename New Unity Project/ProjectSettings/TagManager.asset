@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - WAY_POINT
+  - UP_POINT
+  - Destroy
   layers:
   - Default
   - TransparentFX

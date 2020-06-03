@@ -191,7 +191,6 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-     <Compile Include="Assets\Gravity.cs" />
      <Compile Include="Assets\Malbers Animations\Common\Scripts\Events\UnityEventRaiser.cs" />
      <Compile Include="Assets\Malbers Animations\Common\Scripts\Readme\Readme.cs" />
      <Compile Include="Assets\Malbers Animations\Common\Scripts\Utilities\UseTransform.cs" />
@@ -204,14 +203,13 @@
      <Compile Include="Assets\Map\LowPolyWaterv2\Scripts\src\LPWNormalSolver.cs" />
      <Compile Include="Assets\Map\LowPolyWaterv2\Scripts\src\LPWReflection.cs" />
      <Compile Include="Assets\Map\LowPolyWaterv2\Scripts\src\LPWWaterChunk.cs" />
-     <Compile Include="Assets\Map\Scripts\LookAtObject.cs" />
-     <Compile Include="Assets\Map\Scripts\PathController.cs" />
-     <Compile Include="Assets\Map\Scripts\TrackedPathController.cs" />
-     <Compile Include="Assets\Map\Scripts\Waypoint.cs" />
-     <Compile Include="Assets\MoveCtrl.cs" />
-     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\RotationCtrl.cs" />
+     <Compile Include="Assets\Script\Gravity.cs" />
+     <Compile Include="Assets\Script\MoveCtrl.cs" />
+     <Compile Include="Assets\Script\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\PigMove.cs" />
-     <Compile Include="Assets\wayPointTrack.cs" />
+     <Compile Include="Assets\Script\SkyCtrl.cs" />
+     <Compile Include="Assets\Script\wayPointTrack.cs" />
      <None Include="Assets\Malbers Animations\Common\Shaders\Mask8Toon.shader" />
      <None Include="Assets\Malbers Animations\Common\Shaders\Color4x2S.shader" />
      <None Include="Assets\Map\LowPolyWaterv2\Shaders\LowPolyWaterAdvanced.shader" />
@@ -253,8 +251,14 @@
      <None Include="Assets\Map\LowPolyWaterv2\Shaders\LPWCompatibility.cginc" />
      <None Include="Assets\Map\LowPolyWaterv2\Shaders\LowPolyWaterLite.shader" />
      <None Include="Assets\Map\LowPolyWaterv2\Shaders\LPWReflection.cginc" />
+ <Reference Include="Unity.XR.Management">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -271,11 +275,26 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

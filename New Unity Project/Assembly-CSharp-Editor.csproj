@@ -93,9 +93,6 @@
      <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
      <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Readme\ReadmeEditor.cs" />
-     <Compile Include="Assets\Map\Editor\PathControllerEditor.cs" />
-     <Compile Include="Assets\Map\Editor\TrackedPathControllerEditor.cs" />
-     <Compile Include="Assets\Map\Editor\WaypointEditor.cs" />
      <Compile Include="Assets\Map\LowPolyWaterv2\Editor\LPWInspector.cs" />
      <Compile Include="Assets\Map\LowPolyWaterv2\Editor\LPWShaderGUI.cs" />
  <Reference Include="UnityEditor.TestRunner">
@@ -104,8 +101,14 @@
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -122,11 +125,26 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Jeon soyeon/Desktop/캡스톤디자인/7PM/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
