@@ -31,7 +31,7 @@ public class RotationCtrl : MonoBehaviour
 
             Quaternion tempRot = Quaternion.Inverse(parentObj.localRotation);
             Vector3 newAngle = tempRot.eulerAngles;
-            transform.localEulerAngles = new Vector3(35,originalPos.y, originalPos.z);
+            transform.localEulerAngles = new Vector3(55,originalPos.y, originalPos.z);
         }
     }
 
