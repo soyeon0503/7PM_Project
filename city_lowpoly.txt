@@ -1,0 +1,71 @@
+This low poly building pack includes the "NYC buildings pack", the "skyscrapers", "residential buildings pack", "warehouses", "Barcelona low poly", "Venice low poly mobile" and many other models.
+
+- 165 buildings from more than 150 unique meshes.
+- Texture sizes are 1024x1024 and 2048x2048.
+- Some buildings are atlased, others are tiled.
+- All prefabs have very low resolution realtime lightmap set up by default. (lightmap tab, object menu, Advanced Parameters selector)
+
+Update
+
+- The version 3.0 has a rework in some textures and many new textures (metalicness, roughness and emission)
+- Removed the non closed meshes, and all materials reworked with new maps when needed.
+
+Demo scenes sidenote
+
+- The demo scenes lightmaps have been manually downscaled to lower the download size. To have full res lightmaps please bake again.
+
+_____________________________________
+How to use:
+
+- Simply drag and drop the kind of buildings you are interested in from the "prefabs" folder.
+Tweak diffuse texture size to fit your needs (1024x1024 / 2048x2048 max depending on texture).
+
+- For any building related material, please go to meshes > materials.
+
+
+
+Please, send requests to dactilardesign@gmail.com
+Thank you for ratings and feedback.
+
+
+_____________________________________
+
+Version history:
+
+1.0 "NYC buildings pack", "skyscrapers" and "residential buildings pack" released
+together with a demo scene including trees and some textures
+
+1.3 Added closed building meshes by request, for volume volume shadows 
+compatibility. Please note that some residential models are now missing from
+this prefabs set. 
+
+1.3.1 Mesh update
+
+1.4 Added "skyscrapers under construction" models and "crane" model. Discontinued old 
+lightmapped models, only Beast models and textures are included. Added reflectivity
+for some skyscrapers.
+
+1.5 Added Barcelona buildings, added selfillumination for skyscrappers and 
+NYC buildings, updated textures (reflectivity for all skyscrappers, residential 
+and NYC buildings). Added new demo scene "small planet".
+
+1.6 Updated Barcelona buildings package with 10 new buildings, added warehouse building pack.
+
+1.7. Added "Venize Low Poly Mobile" mobile pack.
+
+1.91. Added 22 buildings not atlased for higher pixel density.
+
+1.95. Added 4 new buildings, from Mexico DF.
+
+2.0. Added France buildings.
+
+2.01. Fixed France scale.
+
+2.1. Added new buildings up to 165 prefabs, reworked all meshes for better scale control.
+
+3.0. Unity 5 update. All buildings have emission maps.
+
+
+
+________________________________
+
