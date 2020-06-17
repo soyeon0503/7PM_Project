@@ -62,6 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\AKTOR Scripts\AKTOR_Screenplay.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\AKTOR Scripts\AKTOR_System.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\AKTOR Scripts\AKTOR_TriggerBox.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\Prefabs and Demo Scene\Files used by Prefab and Demo\Demo Scripts\DEMO_Play_Animation.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\Prefabs and Demo Scene\Files used by Prefab and Demo\Demo Scripts\DEMO_Restarter.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\Prefabs and Demo Scene\Files used by Prefab and Demo\Demo Scripts\DEMO_SoundOnButtonClick.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\Prefabs and Demo Scene\Files used by Prefab and Demo\Demo Scripts\Demo_Player_Controller.cs" />
+    <Compile Include="Assets\AKTOR Narration System\AKTOR System Files\Prefabs and Demo Scene\Files used by Prefab and Demo\Demo Scripts\HowToUsePrefabs.cs" />
     <Compile Include="Assets\BOXOPHOBIC\Utils\Scripts\SettingsUtils\SettingsData.cs" />
     <Compile Include="Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledBanner.cs" />
     <Compile Include="Assets\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledCategory.cs" />
