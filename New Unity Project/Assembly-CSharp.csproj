@@ -219,6 +219,7 @@
     <Compile Include="Assets\Map\LowPolyWaterv2\Scripts\src\LPWReflection.cs" />
     <Compile Include="Assets\Map\LowPolyWaterv2\Scripts\src\LPWWaterChunk.cs" />
     <Compile Include="Assets\RotationCtrl.cs" />
+    <Compile Include="Assets\Script\BigManage.cs" />
     <Compile Include="Assets\Script\GameManage.cs" />
     <Compile Include="Assets\Script\Gravity.cs" />
     <Compile Include="Assets\Script\MoveCtrl.cs" />
