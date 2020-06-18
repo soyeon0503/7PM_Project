@@ -7,7 +7,7 @@ public class BigManage : MonoBehaviour
     // Start is called before the first frame update
     private float timeSpan = 0f;
     public GameObject normal;
-    public const float tempScala = 12f / 100000f;
+    public const float tempScala = 11f / 100000f;
 
     private void Start()
     {
