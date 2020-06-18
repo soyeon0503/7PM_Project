@@ -15,12 +15,12 @@ public class RotationCtrl : MonoBehaviour
         startPos = transform.localPosition;
         originalPos = transform.localPosition;
         parentObj = transform.root;
- 
+
     }
 
     void Update()
     {
-        ResetVR();
+        ResetVR();    
     }
 
     void ResetVR()
