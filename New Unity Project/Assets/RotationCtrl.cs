@@ -12,14 +12,18 @@ public class RotationCtrl : MonoBehaviour
 
     void Start()
     {
+        
         startPos = transform.localPosition;
         originalPos = transform.localPosition;
+        Debug.Log(startPos);
+        Debug.Log(originalPos);
         parentObj = transform.root;
 
     }
 
     void Update()
     {
+        Debug.Log(originalPos);
         ResetVR();    
     }
 
