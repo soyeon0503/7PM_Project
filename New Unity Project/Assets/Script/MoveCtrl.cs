@@ -10,6 +10,7 @@ public class MoveCtrl : MonoBehaviour
     {
         WAY_POINT,
         UP_POINT,
+        Destroy,
         CARDBOARD
     }
     public float speed = 40.0f;                     // 이동 속도
@@ -22,20 +23,11 @@ public class MoveCtrl : MonoBehaviour
 
     public void Start()
     {
-        tr = GameObject.Find("Player").GetComponent<Transform>();
-        if (SceneManager.GetActiveScene().name=="Scene_1"){         
-            movetype = MoveType.UP_POINT;
-            points = GameObject.Find("Path")
-                     .GetComponentsInChildren<Transform>();
-
-        }
-        else if(SceneManager.GetActiveScene().name=="Scene_2"){
-            Debug.Log(tr.position);
-            movetype = MoveType.WAY_POINT;
-            points = GameObject.Find("PlayerPath")
-                    .GetComponentsInChildren<Transform>();
-
-        }
+        tr = GameObject.Find("Player").GetComponent<Transform>(); 
+        movetype = MoveType.UP_POINT;
+        points = GameObject.Find("Path")
+                .GetComponentsInChildren<Transform>();
+      
     }
 
     void Update()
@@ -48,7 +40,6 @@ public class MoveCtrl : MonoBehaviour
             case MoveType.WAY_POINT:
                 MoveWayPoint();
                 break;
-
             case MoveType.CARDBOARD:
                 break;
         }
