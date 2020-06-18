@@ -1,2 +1,59 @@
-Base path: 'C:/Program Files/2019.3.7f1/Editor/Data', plugins path 'C:/Program Files/2019.3.7f1/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=27379 outsize=24579 ok=1
+Cmd: preprocess
+  insize=14404 outsize=9013 ok=1
+Cmd: preprocess
+  insize=6283 outsize=3177 ok=1
+Cmd: preprocess
+  insize=14309 outsize=8989 ok=1
+Cmd: preprocess
+  insize=17893 outsize=11614 ok=1
+Cmd: preprocess
+  insize=19419 outsize=15200 ok=1
+Cmd: preprocess
+  insize=22767 outsize=14048 ok=1
+Cmd: preprocess
+  insize=1213 outsize=1213 ok=1
+Cmd: preprocess
+  insize=15705 outsize=14018 ok=1
+Cmd: preprocess
+  insize=2098 outsize=1278 ok=1
+Cmd: preprocess
+  insize=20071 outsize=17585 ok=1
+Cmd: preprocess
+  insize=3531 outsize=1627 ok=1
+Cmd: preprocess
+  insize=1805 outsize=1116 ok=1
+Cmd: preprocess
+  insize=23205 outsize=6500 ok=1
+Cmd: preprocess
+  insize=37351 outsize=9302 ok=1
+Cmd: preprocess
+  insize=3277 outsize=1862 ok=1
+Cmd: preprocess
+  insize=17784 outsize=11505 ok=1
+Cmd: preprocess
+  insize=1248 outsize=1248 ok=1
+Cmd: preprocess
+  insize=1734 outsize=1021 ok=1
+Cmd: preprocess
+  insize=22785 outsize=14066 ok=1
+Cmd: preprocess
+  error: 1 plat 21 at (91): Automatically setting target of LOD_FADE_CROSSFADE to 3.0
+  insize=15514 outsize=10894 ok=1
+Cmd: preprocess
+  insize=20239 outsize=14982 ok=1
+Cmd: preprocess
+  insize=3476 outsize=1354 ok=1
+Cmd: preprocess
+  insize=2083 outsize=1090 ok=1
+Cmd: preprocess
+  insize=1949 outsize=1118 ok=1
+Cmd: preprocess
+  insize=1766 outsize=898 ok=1
+Cmd: preprocess
+  insize=6308 outsize=1584 ok=1
+Cmd: preprocess
+  insize=33448 outsize=29286 ok=1
